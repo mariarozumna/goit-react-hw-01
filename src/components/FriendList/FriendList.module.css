@@ -1,0 +1,21 @@
+.friendItems {
+    max-width: 550px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    margin: 50px auto;
+}
+
+.friendDescr {
+    max-width: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    border-radius: 12px;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+}

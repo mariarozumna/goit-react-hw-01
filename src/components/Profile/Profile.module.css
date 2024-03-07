@@ -1,0 +1,75 @@
+.profCard {
+    max-width: 550px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+
+    border: 3px solid black;
+    border-radius: 20px;
+}
+
+.profInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    padding: 20px;
+    padding-bottom: 24px;
+}
+
+.profImg {
+    border-radius: 50%;
+    background-color: rgb(45, 45, 45);
+}
+
+.profName {
+    margin-top: 8px;
+    font-weight: 600;
+    font-size: 42px;
+}
+
+.profNickname {
+    font-weight: 400;
+    font-size: 36px;
+    color: var(--second-color);
+}
+
+.profLocation {
+    font-weight: 400;
+    font-size: 36px;
+    color: var(--second-color);
+}
+
+.decrBlock {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: rgb(217, 217, 217);
+    border-top: 2px solid var(--second-color);
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    width: 100%;
+}
+
+.descrItem {
+    padding: 18px;
+    max-width: 185px;
+    width: 100%;
+    text-align: center;
+    font-size: 36px;
+}
+
+.descrItem:not(:last-child) {
+    border-right: 2px solid var(--second-color);
+}
+
+.descrTitle {
+    font-weight: 400;
+}
+
+.descrQuantity {
+    font-weight: 600;
+}
